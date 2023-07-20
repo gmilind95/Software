@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Submit order">
+		<classes>
+			<class name="TestComponents.BaseTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="BaseOrder">
+		<classes>
+			<class name="TestCases.Agent_LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite --> 
