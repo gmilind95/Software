@@ -9,15 +9,15 @@
 	<properties>
 		<!-- Define common dependency versions here -->
 
-		<testng.version>7.4.0</testng.version>
+		<testng.version>7.8.0</testng.version>
 		<selenium.version>3.141.59</selenium.version>
 		<log4j.version>1.2.17</log4j.version>
 		<poi.version>4.1.1</poi.version>
 		<poi-ooxml.version>4.1.1</poi-ooxml.version>
 		<xmlbeans.version>3.1.0</xmlbeans.version>
-		<webdrivermanager.version>5.0.3</webdrivermanager.version>
+		<webdrivermanager.version>5.4.0</webdrivermanager.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
 	<dependencies>
 		<!-- TestNG -->
 		<dependency>
@@ -144,7 +144,13 @@
 		<!-- Additional dependencies go here -->
 
 	</dependencies>
-
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<name>JCenter</name>
+			<url>https://jcenter.bintray.com/</url>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<!-- Maven Compiler Plugin -->
